@@ -1,3 +1,5 @@
+const header = document.querySelector(".header")
+
 const Div_Of_Total_account = document.querySelector(".Div_Of_Total_account");
 
 const Input_Of_Amount = document.querySelector(".Input_Of_Amount");
@@ -19,7 +21,7 @@ const Span_Of_Activte = document.querySelector(".Span_Of_Activte");
 let Array_of_Transiction = [];
 
 Button_Of_Save.addEventListener("click", (e) => {
-  console.log(typeof Input_Of_Amount.value);
+    header.textContent ="The Width Of This Screen Is "+ window.innerWidth;
 
   // console.log(typeof Input_Of_Activte.value)
 

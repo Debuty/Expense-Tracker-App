@@ -31,6 +31,21 @@ header {
     top: 10px;
 
     margin: 10px;
+
+
+}
+
+.header{
+
+    color: aliceblue;
+
+    position: absolute;
+
+    left: 45%;
+
+    right: 20%;
+
+    top: 20%;
 }
 
 .Div_Of_App {
