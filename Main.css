@@ -35,13 +35,13 @@ header {
 
 .Div_Of_App {
 
-    display: flex;
+    
 
     margin: 20px;
 
     margin-top: 100px;
 
-    gap: 200px;
+    
 }
 
 /* Save_Part */
@@ -49,11 +49,10 @@ header {
 .Div_Of_Save {
     
     background-color: rgb(19, 38, 123);
-   
     padding: 20px;
     border-radius: 20px;
-
-    width: 350px;
+    width: 30%;
+    margin: auto ;
 
 }
 
@@ -61,16 +60,19 @@ header {
 .Div_Of_Amount {
     margin: 5px;
     display: flex;
+    gap: 10px;
+    
 
 }
 
 .Label_Of_Amount {
     color: aliceblue;
-    flex: 1;
 }
 
 .Input_Of_Amount {
     outline-style: none;
+    flex: 1;
+    width: 100%;
 }
 
 
@@ -81,22 +83,33 @@ header {
     margin: 5px;
     display: flex;
    
-
+gap: 10px;
 }
 
 .label_Of_Activte {
     color: aliceblue;
-    flex: 1;
+    
 }
 
 .Input_Of_Activte {
     outline-style: none;
+    flex: 1;
+    width: 100%;
 }
 
 
 /* Save_Part/Button_Of_Save */
+
+
+.Button_Container{
+
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
 .Button_Of_Save {
-    margin-right: 150px;
+    
 
     background-color: blue;
 
@@ -109,6 +122,10 @@ header {
     padding: 10px;
 
     transition: 0.5s;
+
+   margin-top: 20px;
+
+   
 
 }
 
@@ -135,7 +152,7 @@ header {
     outline-style: none;
 
     transition: 0.5s;
-
+margin-top: 20px;
     
 }
 
@@ -163,12 +180,14 @@ header {
     border-radius: 20px;
 
     padding: 20px;
-
-     flex: 1;
   
     max-height: 150px;
 
     overflow:scroll;
+margin: auto;
+    margin-top: 100px;
+
+    width: 70%;
 }
 
 .Div_Of_History::-webkit-scrollbar{
@@ -183,17 +202,16 @@ header {
     border-radius: 10px;
 margin-bottom: 10px;
 
-
 }
 
 
-.Span_Of_Amount{margin: 10px;}
+.Span_Of_Amount{margin: 10px ; color: rgb(29, 20, 151); display: block;}
 
 
-.Span_Of_Activte{margin: 10px;}
+.Span_Of_Activte{margin: 10px; color: rgb(208, 211, 214);}
 
 
-.Red_Transiction{background-color: rgba(203, 10, 10, 0.767);}
+.Red_Transiction{background-color: rgba(214, 43, 43, 0.767);}
 
 
 .Div_Of_Total_account{
@@ -214,4 +232,15 @@ margin-bottom: 10px;
     color: aliceblue;
 
     font-size: larger;
+}
+
+
+@media(max-width:750px){
+    
+    .Div_Of_Save {
+    
+       width: 70%;
+    
+    }
+    
 }
